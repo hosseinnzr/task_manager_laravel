@@ -20,9 +20,9 @@ you can add , delete , edit , change task status ( complete / not ) mange your t
 use MVC architecture in this project and MYSQL sever for data base .
 
 ## Run project
-copy .env.example to .env
-impost project1.sql ro your date base
-type php artisan serv in terminal or cmd
+copy .env.example to .env </br>
+impost database.sql ro your date base </br>
+type php artisan serv in terminal or cmd </br>
 
 
 ## License
