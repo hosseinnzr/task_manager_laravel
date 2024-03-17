@@ -1,28 +1,45 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+## Laravel Task Manager App
 
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## About This Project
+### Introduction
 
 you can add , delete , edit , change task status ( complete / not ) mange your task . <br>
 use MVC architecture in this project and MYSQL sever for data base .
 
-## Run project
-copy .env.example to .env </br>
-impost database.sql ro your date base </br>
-type php artisan serv in terminal or cmd </br>
+To run this Laravel app, you need to have the following software installed on your machine:
+- [PHP](https://www.php.net/)
+- [Composer](https://getcomposer.org/)
+
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/hosseinnzr/task_manger_laravel.git
+   ```
+2. Change into the project directory:
+    ```bash
+    cd task_manger_laravel
+    ```
+
+3. Install PHP dependencies:
+    ```bash
+    composer update
+    composer install
+    ```
+4. Create a copy of the .env.example file and rename it to .env. Update the database and other configurations as needed.
+
+6. Generate an application key:
+    ```bash
+    php artisan key:generate
+    ```
+7. Migrate the database:
+    ```bash
+    php artisan migrate
+    ```
+8. Serve the application:
+    ```bash
+    php artisan serve
+    ```
+10. Visit [http://127.0.0.1:8000](http://127.0.0.1:8000) in your browser to view the app.
 
 
 ## License
